@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="index.html">Index</a>
+        </li>
+        <li>
+            <a href="Day_3.html">Day_3</a>
+        </li>
+        <li>
+            <a href="Hire_Me!.html">Hire me</a>
+        </li>
+        <li>
+            <a href="Day_2.html">Day 2</a>
+        </li>
+        <li>
+            <a href="Ppp.html">Ppp</a>
+        </li>
+        <li>
+            <a href="Qq.html">Qq</a>
+        </li>
+        <li>
+            <a href="Registration_Form.html">Registration_Form</a>
+        </li>
+    </ul>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Age</td>
+                <td>Phone Number</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>16</td>
+                <td>09034582739 </td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>15</td>
+                <td>08035638204</td>
+            </tr>
+            <tr>
+                <td>Esther</td>
+                <td>17</td>
+                <td>07084637284</td>
+            </tr>
+        </tbody>
+    </table><br><br>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <thead>
+            <tr>
+                <td colspan="3">1</td>
+                <!-- <td>2</td>
+                <td>3</td> -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">4</td>
+                <td>5</td>
+                <td rowspan="3">6</td>
+            </tr>
+            <tr>
+                <!-- <td>7</td> -->
+                <td>8</td>
+                <!-- <td>9</td> -->
+            </tr>
+            <tr>
+                <!-- <td>10</td> -->
+                <td>11</td>
+                <!-- <td>12</td> -->
+            </tr>
+        </tbody>
+    </table><br><br>
+    <form action="">
+        <label for="fname">
+            First Name
+        </label> 
+        <input type="text" id="fname" name="FirstName" required>  
+        <label for="lname">
+            Last Name
+        </label>    
+        <input type="text" name="LastName" id="lname" required><br> <br>
+        <label for="email">
+            Email
+        </label>
+        <input type="email" name="Email" id="email" required>
+        <label for="dateofbirth">
+            Date of Birth
+        </label>
+        <input type="date" name="DateofBirth" id="dateofbirth" required><br><br>
+        <label for="phonenumber">
+            Phone Number
+        </label>
+        <input type="number" name="PhoneNumber" id="phonenumber" required>
+        <label for="profilepicture">
+            Profile Picture
+        </label>
+        <input type="file" name="ProfilePicture" id="profilepicture"><br><br>
+        <label for="daysactive">
+            Number of Days Active
+        </label>
+        <input type="range" name="NumberofDaysActive" id="daysactive">
+        <label for="Country">
+            Select your Country
+        </label>
+        <select name="Country" id="Country">
+            <option value="">Choose</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Ghana">Ghana</option>
+            <option value="SouthAfrica">South Africa</option>
+            <option value="Egypt">Egypt</option>
+        </select>
+        <label for="Feedback">
+            Give Feedback
+        </label>
+        <textarea name="GiveFeedback" id="Feedback"></textarea>
+        <button type="submit">Submit</button>
+         </form>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="index.html">Index</a>
+        </li>
+        <li>
+            <a href="Day_3.html">Day_3</a>
+        </li>
+        <li>
+            <a href="Hire_Me!.html">Hire me</a>
+        </li>
+        <li>
+            <a href="Day_2.html">Day 2</a>
+        </li>
+        <li>
+            <a href="Ppp.html">Ppp</a>
+        </li>
+        <li>
+            <a href="Qq.html">Qq</a>
+        </li>
+        <li>
+            <a href="Registration_Form.html">Registration_Form</a>
+        </li>
+    </ul>
+    <h1>Registration Form</h1>
+    <form>
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="firstname"></td>
+                <td>Last Name:</td>
+                <td><input type="text" name="lastname"></td>
+            </tr>
+            <tr>
+                <td>Date of birth:</td>
+                <td><input type="date" name="dob"></td>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="other"> Other
+                </td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td><input type="tel" name="phone"></td>
+                <td>Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+        </table>
+        
+        <h2>Address</h2>
+        <table>
+            <tr>
+                <td colspan="2"><input type="text" name="address1" placeholder="Street Address"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" name="address2" placeholder="Street Address Line2"></td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td><input type="text" name="city"></td>
+                <td>State:</td>
+                <td><input type="text" name="state"></td>
+            </tr>
+            <tr>
+                <td>Postal/Zip Code:</td>
+                <td><input type="text" name="zip"></td>
+                <td>
+                    <select name="country">
+                        <option>United Kingdom</option>
+                        <!-- Add more countries as needed -->
+                    </select>
+                </td>
+            </tr>
+        </table>
+        
+        <h2>Level of Education:</h2>
+        <input type="checkbox" name="education" value="college"> College
+        <input type="checkbox" name="education" value="bachelor"> Bachelor's degree
+        <input type="checkbox" name="education" value="master"> Master's degree
+        
+        <p>Anything else worth noting about you:</p>
+        <textarea name="notes"></textarea>
+        
+        <table>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password"></td>
+                <td>Confirm Password:</td>
+                <td><input type="password" name="confirm_password"></td>
+            </tr>
+        </table>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
